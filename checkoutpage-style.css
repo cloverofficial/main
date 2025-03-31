@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    zoom: 1;
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+body {
+    font-family: 'Source Sans 3', sans-serif; /* Default font for the body */
+}
+
+.solid{
+    border-top: 2px solid;
+    color: #a8a8a8;
+}
+
+.nav-link{
+    font-family: "Source Sans 3", serif;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.col:hover {
+    cursor: pointer;
+}
